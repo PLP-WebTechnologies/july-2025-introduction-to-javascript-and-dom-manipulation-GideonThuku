@@ -1,3 +1,13 @@
+
+---
+
+## ✅ Assignment Completed  
+
+All required parts of the assignment (variables + conditionals, functions, loops, and DOM interactions)  
+have been implemented in the project files. 
+
+--- 
+
 # 🚀 Assignment: Mastering JavaScript Fundamentals
 
 Welcome to your next step toward JavaScript mastery! In this assignment, you'll explore essential concepts that form the backbone of interactive, dynamic web pages—functions, loops, and the Document Object Model (DOM). Ready to code like a pro? Let’s dive in.
