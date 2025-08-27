@@ -1,11 +1,10 @@
-/* Simple, clean styles for beginners */
 
 :root {
   --bg: #f7f9fc;
   --card: #ffffff;
   --text: #222;
   --muted: #666;
-  --accent: #2d6cdf; /* soft blue */
+  --accent: #2d6cdf;
 }
 
 * { box-sizing: border-box; }
