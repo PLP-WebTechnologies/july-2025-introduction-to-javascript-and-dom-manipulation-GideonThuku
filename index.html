@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Power Learn Project — JS Basics Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="container">
+    <h1 id="pageTitle">Power Learn Project (PLP)</h1>
+    <p>A Pan-African social impact organization training developers and growing tech talent.</p>
+  </header>
+
+  <main class="container">
+    <!-- ABOUT  -->
+    <section class="card" id="about">
+      <h2>About PLP</h2>
+      <p>
+        PLP’s mission is to unlock Africa’s potential by training developers through
+        accessible tech education, community, and opportunities. The vision includes
+        the #1MillionDevs4Africa movement, building skills and jobs across the continent.
+      </p>
+      <ul>
+        <li>Programs and community: Coffee & Code, AI Safari, and more.</li>
+        <li>Focus: democratize tech education, bridge the skills gap, and drive youth employment.</li>
+        <li>Ecosystem: training, mentorship, employability support, and talent connections.</li>
+      </ul>
+    </section>
+
+    <!-- PART 1: VARIABLES + CONDITIONALS -->
+    <section class="card" id="part1">
+      <h2>Part 1: Variables + Conditionals</h2>
+      <p class="muted">Check if an applicant’s age meets a basic requirement.</p>
+
+      <div class="row">
+        <label for="ageInput">Enter your age:</label>
+        <input id="ageInput" type="number" placeholder="e.g. 18" />
+        <button id="checkAgeBtn">Check Age</button>
+      </div>
+      <p id="result1"><em>Result will show here…</em></p>
+    </section>
+
+    <!-- PART 2: FUNCTIONS -->
+    <section class="card" id="part2">
+      <h2>Part 2: Functions</h2>
+      <p class="muted">Simple functions for greeting and adding numbers.</p>
+
+      <!-- Function 1: greet(name) -->
+      <div class="row">
+        <label for="nameInput">Your name:</label>
+        <input id="nameInput" type="text" placeholder="e.g. Amina" />
+        <button id="greetBtn">Greet</button>
+      </div>
+      <p id="greetOutput"><em>Greeting will show here…</em></p>
+
+      <!-- Function 2: addNumbers(a, b) -->
+      <div class="row">
+        <label for="numA">Number A:</label>
+        <input id="numA" type="number" placeholder="e.g. 5" />
+        <label for="numB">Number B:</label>
+        <input id="numB" type="number" placeholder="e.g. 7" />
+        <button id="sumBtn">Add</button>
+      </div>
+      <p id="sumOutput"><em>Sum will show here…</em></p>
+    </section>
+
+    <!-- PART 3: LOOPS -->
+    <section class="card" id="part3">
+      <h2>Part 3: Loops</h2>
+      <p class="muted">Loop over PLP focus areas and basic counting.</p>
+
+      <!-- Loop example 1: for-loop -->
+      <div class="row">
+        <button id="listFruitsBtn">Show PLP Focus Areas (for-loop)</button>
+      </div>
+      <ul id="fruitList"></ul>
+
+      <!-- Loop example 2: while-loop -->
+      <div class="row">
+        <button id="countBtn">Count 1 to 5 (while-loop)</button>
+      </div>
+      <p id="countOutput"><em>Counting output will show here…</em></p>
+    </section>
+
+    <!-- PART 4: DOM INTERACTIONS -->
+    <section class="card" id="part4">
+      <h2>Part 4: DOM Interactions (3+)</h2>
+      <p id="domText">
+        PLP empowers young Africans with software and AI skills. Click buttons to interact.
+      </p>
+
+      <div class="row">
+        <button id="changeTextBtn">1) Change Text</button>
+        <button id="toggleColorBtn">2) Toggle Color</button>
+        <button id="addItemBtn">3) Add Program Item</button>
+      </div>
+
+      <ul id="dynamicList">
+        <li>Example item 1</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>Simple demo for variables, conditionals, functions, loops, and DOM.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
